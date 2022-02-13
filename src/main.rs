@@ -26,7 +26,7 @@ struct HomeEnv {
     datetime: String,
     temperature: f64,
     humidity: f64,
-    pressure: u64,
+    pressure: f64,
     co2: u64,
 }
 
