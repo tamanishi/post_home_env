@@ -28,6 +28,7 @@ struct HomeEnv {
     humidity: f64,
     pressure: f64,
     co2: u64,
+    dust: f64,
 }
 
 /// Download the two public key JWKS files if necessary and cache the content at the given file path.
